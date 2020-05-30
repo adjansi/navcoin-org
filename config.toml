@@ -47,6 +47,10 @@ enableRobotsTXT = true
         title = "NavCoin - Una criptovaluta facile da utilizzare "
         weight = 8
         languageName = "Italian"
+    [Languages.pt]
+        title = "NavCoin - Uma criptomoeda decentralizada fácil de utilizar "
+        weight = 8
+        languageName = "Portuguese"
 
 
 
@@ -891,6 +895,127 @@ enableRobotsTXT = true
 [[Languages.it.menu.main]]
     name = "Portafogli"
     title = "Portafogli"
+    weight = 50
+    identifier = "wallets"
+    url = "/wallets/"
+
+
+# Main Menu Portuguese
+
+[[Languages.es.menu.main]]
+    name = "Inicio"
+    title = "Inicio"
+    weight = 10
+    identifier = "get-started"
+    depth = 1
+    [[Languages.pt.menu.main]]
+        name = "Por que NavCoin?"
+        title = "Por que NavCoin?"
+        weight = 20
+        url = "/why-navcoin/"
+        identifier = "why-navcoin"
+        parent = "get-started"
+    [[Languages.pt.menu.main]]
+        name = "Governança"
+        title = "Governança"
+        weight = 30
+        url = "/governance/"
+        identifier = "governance"
+        parent = "get-started"
+    [[Languages.pt.menu.main]]
+        name = "Para indivíduos"
+        title = "Para indivíduos"
+        weight = 40
+        url = "/for-individuals/"
+        identifier = "for-individuals"
+        parent = "get-started"
+    [[Languages.pt.menu.main]]
+        name = "Para desenvolvedores"
+        title = "Para desenvolvedores"
+        weight = 50
+        identifier = "for-developers"
+        url = "/for-developers/"
+        parent="get-started"
+    [[Languages.es.menu.main]]
+        name = "Para negócios"
+        title = "Para negócios"
+        weight = 60
+        identifier = "for-business"
+        url = "/for-business/"
+        parent="get-started"
+    [[Languages.pt.menu.main]]
+        name = "Comprar NavCoin"
+        title = "Comprar NavCoin"
+        weight = 70
+        url = "/buy-navcoin/"
+        identifier = "buy-navcoin"
+        parent = "get-started"
+
+[[Languages.pt.menu.main]]
+    name = "Explorar"
+    title = "Explorar"
+    weight = 20
+    identifier = "explore"
+    [[Languages.pt.menu.main]]
+        name = "Atividade do projeto"
+        title = "Atividade do projeto"
+        weight = 20
+        url = "/project-activity/"
+        identifier = "project-activity"
+        parent = "explore"
+    [[Languages.pt.menu.main]]
+        name = "Explorador de blocos"
+        title = "Explorador de blocos"
+        weight = 30
+        url = "https://navexplorer.com"
+        identifier = "block-explorer"
+        parent = "explore"
+    [[Languages.pt.menu.main]]
+        name = "NavHub"
+        title = "NavHub"
+        weight = 40
+        url = "https://navhub.org"
+        identifier = "navhub"
+        parent = "explore"
+    [[Languages.pt.menu.main]]
+        name = "Comerciante"
+        title = "Comerciante"
+        weight = 50
+        url = "/merchants/"
+        identifier = "merchants"
+        parent = "explore"
+    [[Languages.pt.menu.main]]
+        name = "Envolver-se"
+        title = "Envolver-se"
+        weight = 60
+        url = "/get-involved/"
+        identifier = "get-involved"
+        parent = "explore"
+
+[[Languages.pt.menu.main]]
+    name = "Notícias"
+    title = "Notícias"
+    url="/notices/"
+    weight = 30
+    identifier = "news"
+
+[[Languages.es.menu.main]]
+    name = "Fundo comunitário"
+    title = "Fundo comunitário"
+    weight = 40
+    identifier = "community-fund"
+    url = "/community-fund/"
+
+[[Languages.pt.menu.main]]
+    name = "Recompensas"
+    title = "Recompensas"
+    weight = 45
+    identifier = "bounties"
+    url = "/bounties/"
+
+[[Languages.pt.menu.main]]
+    name = "Carteiras"
+    title = "Carteiras"
     weight = 50
     identifier = "wallets"
     url = "/wallets/"
