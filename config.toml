@@ -902,7 +902,7 @@ enableRobotsTXT = true
 
 # Main Menu Portuguese
 
-[[Languages.es.menu.main]]
+[[Languages.pt.menu.main]]
     name = "Inicio"
     title = "Inicio"
     weight = 10
@@ -999,7 +999,7 @@ enableRobotsTXT = true
     weight = 30
     identifier = "news"
 
-[[Languages.es.menu.main]]
+[[Languages.pt.menu.main]]
     name = "Fundo comunitário"
     title = "Fundo comunitário"
     weight = 40
@@ -1016,6 +1016,6 @@ enableRobotsTXT = true
 [[Languages.pt.menu.main]]
     name = "Carteiras"
     title = "Carteiras"
-    weight = 50
+    weight = 50fffff 
     identifier = "wallets"
     url = "/wallets/"
